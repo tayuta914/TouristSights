@@ -35,7 +35,7 @@ class DetailFragment : Fragment() {
         val sights = getSights(resources)
         binding.detailKaind.text = sights[position].kind
         binding.detailName.text = sights[position].name
-        binding.detailDescroption.text = sights[position].description
+        binding.detailDescription.text = sights[position].description
         var img = resources.getIdentifier(
             sights[position].imageName,
             "drawable", context?.packageName
