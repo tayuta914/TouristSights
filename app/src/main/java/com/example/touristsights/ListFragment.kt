@@ -2,8 +2,6 @@ package com.example.touristsights
 
 import android.content.res.Configuration
 import android.os.Bundle
-import android.provider.Settings.Global.putInt
-import android.text.TextUtils.replace
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
